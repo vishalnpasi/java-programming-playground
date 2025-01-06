@@ -1,10 +1,10 @@
 package org.example.abstraction;
 
 public class Cat extends Animal{
-    public String getVoice(){
-        return "MeeMee";
+    public void showAnimal(){
+        System.out.println("Cat showed");
     }
-    String getType(){
-        return "Cat";
+    public void catOnly(){
+        System.out.println("Cat Only");
     }
 }
